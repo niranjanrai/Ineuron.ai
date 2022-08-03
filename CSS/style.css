@@ -475,6 +475,7 @@ h2 span {
 .story {
   transform: skewX(-20deg);
   display: flex;
+  flex-wrap: wrap;
 }
 .story-image {
   height: 15rem;
