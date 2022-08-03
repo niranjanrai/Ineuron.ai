@@ -384,6 +384,7 @@ footer {
 }
 .icon-cont {
   display: flex;
+  /* flex-directi   on: column; */
   align-items: center;
   /* justify-content: center; */
   gap: 0.5rem;
@@ -393,5 +394,5 @@ footer {
 }
 
 .address-icon {
-  font-size: 75px;
+  font-size: 25px;
 }
