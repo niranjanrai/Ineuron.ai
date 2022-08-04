@@ -87,7 +87,7 @@ p {
 
 /* Navbar */
 .navbar-brand img {
-  width: 10rem;
+  width: 8rem;
 }
 
 li.nav-item {
@@ -172,6 +172,7 @@ li.nav-item {
 /* Achievers section */
 .achiever {
   display: flex;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 .achiever-icon {
@@ -569,6 +570,22 @@ footer a:hover {
 }
 
 /* Responsiveness */
+@media only screen and (max-width: 1400px) {
+  .navbar-brand img {
+    width: 6rem;
+  }
+  .nav-item .nav-link {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .achiever {
+    gap: 2rem;
+  }
+  .achiever-icon {
+    width: 10rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .story-bg {
     width: 85%;
