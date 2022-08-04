@@ -25,6 +25,10 @@ The main reason i used bootstrap because of the nobile responsive, i hope you wi
 - BOOTSTRAP
 
 
+# Disclaimer 
+
+For best experience use 1500px as your display size.
+
 
 
 
