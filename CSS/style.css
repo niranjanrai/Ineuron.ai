@@ -508,12 +508,14 @@ h2 span {
 /* Footer */
 footer {
   background: url(/Images/footer-bg.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: var(--white);
+  padding-top: 400px;
 }
 
-footer ul.footer-menu {
+footer .footer-menu {
   list-style: none;
   padding-left: 0;
   padding-top: 15px;
@@ -542,6 +544,28 @@ footer a:hover {
 }
 .credit p a:hover {
   color: var(--title-text-color);
+}
+/*  */
+/* footer {
+  padding-top: 400px;
+  padding-bottom: 5rem;
+} */
+.footer-mail {
+  font-size: 16px;
+}
+.icon-cont {
+  display: flex;
+  /* flex-directi   on: column; */
+  align-items: center;
+  /* justify-content: center; */
+  gap: 0.5rem;
+}
+.mail-icon {
+  font-size: 26px;
+}
+
+.address-icon {
+  font-size: 25px;
 }
 
 /* Responsiveness */
@@ -614,26 +638,9 @@ footer a:hover {
   .stat-title {
     font-size: 18px;
   }
-}
 
-footer {
-  padding-top: 400px;
-  padding-bottom: 5rem;
-}
-.footer-mail {
-  font-size: 16px;
-}
-.icon-cont {
-  display: flex;
-  /* flex-directi   on: column; */
-  align-items: center;
-  /* justify-content: center; */
-  gap: 0.5rem;
-}
-.mail-icon {
-  font-size: 26px;
-}
-
-.address-icon {
-  font-size: 25px;
+  footer {
+    padding-top: 580px;
+    margin-top: -330px;
+  }
 }
