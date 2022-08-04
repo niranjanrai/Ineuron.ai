@@ -545,7 +545,27 @@ footer a:hover {
 }
 
 /* Responsiveness */
+@media (max-width: 1200px) {
+  .story-bg {
+    width: 85%;
+  }
+}
 
+@media (max-width: 1000px) {
+  .story-bg {
+    transform: skewX(0);
+  }
+
+  .story {
+    transform: skewX(0);
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .story-image {
+    margin-bottom: 3rem;
+  }
+}
 @media only screen and (max-width: 992px) {
   .feature:not(:last-child) {
     margin-bottom: 50px;
