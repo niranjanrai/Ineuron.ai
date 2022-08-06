@@ -310,36 +310,9 @@ li.nav-item {
   padding: 7px 20px;
   font-size: 14px;
   font-weight: 500;
-  /* text-transform: uppercase; */
   color: #353382;
   letter-spacing: 1px;
   border-radius: 40px;
-}
-
-.icon-3 {
-  width: 12.5rem;
-}
-
-.icon-4 {
-  width: 12.5rem;
-}
-.icon-3 {
-  width: 12.5rem;
-}
-.card-body.starter {
-  background: var(--yellow-bg);
-}
-
-.card-body.pro {
-  background: var(--purple-bg);
-}
-
-.card-body.single {
-  background: var(--blue-bg);
-}
-
-.card-body.family {
-  background: var(--green-bg);
 }
 
 .card-body h5 {
@@ -583,6 +556,14 @@ footer a:hover {
   }
   .achiever-icon {
     width: 10rem;
+  }
+  .card {
+    height: 80%;
+  }
+  .avenger-card {
+    position: relative;
+    width: 250px;
+    width: 300px;
   }
 }
 
